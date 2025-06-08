@@ -141,10 +141,19 @@ body {
 }
 
 .profile .text {
+  
   padding-top: 10px;
   font-size: 20px;
   line-height: 0.1;
 }
+
+  .profile .text p{
+
+ margin-top: 40px;
+font-size: 25px;
+font-weight: 600;
+  }
+
 @media (max-width: 500px) {
   .profile .text p {
     padding-top: 10px;
@@ -153,10 +162,12 @@ body {
   }
 }
 
+ 
+
 .profile .text span {
  
-  font-size: 23px;
-  font-weight: 800;
+   font-size: 30px;
+   font-weight: 900;
 }
 
 .profile .icon {
@@ -172,6 +183,14 @@ body {
 .profile .icon i:hover {
   font-size: 40px;
   color: var(--secondary-color);
+}
+
+.profile .icon a {
+
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight:  900 ;
 }
 
 /* start   contant */
